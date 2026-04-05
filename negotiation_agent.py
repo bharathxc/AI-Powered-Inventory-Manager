@@ -19,8 +19,8 @@ Warehouse AI Agent"""
 
 def send_negotiation_email(recipient_email, body):
     """Sends the email using the App Password."""
-    sender_email = "bharatpchandran@gmail.com"  # Your Gmail address
-    app_password = "kfat ktit pjkg zopn"   # Paste your 16-character code here
+    sender_email = ""  # Your Gmail address
+    app_password = ""   # Paste your 16-character code here
 
     msg = EmailMessage()
     msg.set_content(body)
